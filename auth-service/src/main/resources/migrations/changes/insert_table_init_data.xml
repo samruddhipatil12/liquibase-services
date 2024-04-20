@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+	<changeSet author="Samruddhi Patil" id="20220717">
+		<insert schemaName="auth_services_db" tableName="users">
+			<column name="user_code" value="1" />
+			<column name="userId" value="2" />
+			<column name="username" value="Samruddhi" />
+			<column name="password" value="123" />
+			<column name="email" value="samruddhi@gmail.com" />
+			<column name="age" value="20" />
+		</insert>
+	</changeSet>
+</databaseChangeLog>
